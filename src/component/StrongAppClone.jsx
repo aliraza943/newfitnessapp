@@ -483,7 +483,7 @@ function WalkingOptions({ walkingOptions, openModal, getRandomWalk, randomWalk, 
                 </div>
             )}
 
-            {/* <div className="space-y-3">
+            <div className="space-y-3">
                 {walkingOptions.map((option, index) => (
                     <div key={index} className="bg-white rounded-lg shadow p-4 flex items-start relative">
                         <button
@@ -501,7 +501,7 @@ function WalkingOptions({ walkingOptions, openModal, getRandomWalk, randomWalk, 
                         </div>
                     </div>
                 ))}
-            </div> */}
+            </div>
 
             <div className="text-center text-gray-500 mt-4 text-sm">
                 Tap the + button to add a new walking option
